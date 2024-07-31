@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+
+    <div id="warning-message">
+      <span id="warning-display"></span>
+    </div>
+
+    <div id="controls">
+      <button id="start-game">Start Game</button>
+      <button id="play-again" style="display:none;">Play Again</button>
+    </div>
+
+    <div id="game">
+    </div>
+
+    <div id="matches-count">
+      <label>Matches:</label>
+      <span id="matches-display">0</span>
+    </div>
+
+    <div id="guesses-count">
+      <label>Guesses:</label>
+      <span id="guesses-display">0</span>
+    </div>
+
+    <div id="guesses-count-all-time">
+      <label>Lowest Guesses:</label>
+      <span id="lowest-display"></span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

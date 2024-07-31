@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+#game {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#game div {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+body {
+  background-color: lightblue;
+}
+
+h1, #matches-count, #guesses-count, #warning-message, #controls {
+  display: flex;
+  justify-content: center;
+}
+
+#warning-message {
+  min-height: 18px;
+  margin: 5px 5px;
+  color: red;
+  font-weight: bold;
+}
